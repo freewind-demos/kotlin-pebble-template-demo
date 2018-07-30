@@ -1,4 +1,8 @@
-Kotlin Hello World Demo
-=======================
+Kotlin Pebble Template Demo
+===========================
 
-Hello world from kotlin. Open it in IDE and run `Hello.kt`
+Try [pebble](https://github.com/PebbleTemplates/pebble/) to render templates.
+
+It's working well with Kotlin's data classes.
+
+Run `Hello.kt` in your IDE.
