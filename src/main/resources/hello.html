@@ -1,0 +1,16 @@
+<html>
+<body>
+{% for item in items %}
+<div>
+    <div>Name: {{ item.name }}</div>
+    <div>Price: {{item.price}}</div>
+    <div>Keywords: {% for keyword in item.keywords %}<span>{{keyword}}</span>{% endfor %}</div>
+    <ul>
+    {% for feature in item.features %}
+        <li>Feature: {{feature.description}}</li>
+    {% endfor %}
+    </ul>
+</div>
+{% endfor %}
+</body>
+</html>
